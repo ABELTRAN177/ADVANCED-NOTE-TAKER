@@ -170,10 +170,12 @@ const renderNoteList = async (notes) => {
   }
 
   jsonNotes.forEach((note) => {
+    // If note title is not 'Test Note' then create a list item
+    if(note.title !== 'Test Title') {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
-
     noteListItems.push(li);
+    }
   });
 
   if (window.location.pathname === '/notes') {
