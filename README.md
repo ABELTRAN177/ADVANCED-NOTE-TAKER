@@ -2,7 +2,7 @@
 <img width="1800" alt="Screenshot 2024-09-10 at 1 43 38 PM" src="https://github.com/user-attachments/assets/a4dcd30e-7f82-4652-ba15-ed570efffd1a">
 
   ## Description
-    A professional readme generator that allows the user to display project expectations and guidelines 
+    A note taker encompassed by the ussage of express and node. Users have the ability to create, store, render, and delete notes from the page. 
 
   ## Table of Contents
   1. [Description](#description)
